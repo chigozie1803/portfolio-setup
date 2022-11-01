@@ -135,7 +135,7 @@ ul {
   padding: 0;
   gap: 12px;
   width: 327px;
-  height: 307px;
+  height: 380px;
   flex: none;
   flex-grow: 0;
 }
@@ -163,12 +163,12 @@ h2.recent-work {
   align-items: left;
 }
 
-.feature h3 {
+h3.feature {
   width: 327px;
-  height: 36px;
+  height: 80px;
   font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   color: #091e42;
@@ -196,7 +196,6 @@ h2.recent-work {
 .btn {
   display: flex;
   padding: 12px;
-  margin-top: 24px;
   gap: 10px;
   color: white;
   letter-spacing: 0.03em;
@@ -205,7 +204,6 @@ h2.recent-work {
   font-weight: 700;
   font-size: 1.1em;
   width: 137px;
-  height: 24px;
   background: #ff6b00;
 }
 
