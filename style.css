@@ -333,15 +333,11 @@ h3.feature {
 }
 
 .tags {
-  display: flex;
+  float: left;
   list-style-type: none;
-  justify-content: space-between;
-  align-content: center;
-  flex-direction: row;
   color: #fff;
   padding-top: 50px;
   gap: 8px;
-  align-self: auto;
   width: 170px;
 }
 
