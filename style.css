@@ -622,7 +622,7 @@ input {
 }
 
 .button-form button:enabled {
-  background:  #ff6b00;
+  background: #ff6b00;
 }
 
 .button-form button:hover {
@@ -642,11 +642,9 @@ footer .social-container {
   flex-direction: row;
   align-items: center;
   height: 40px;
-  color: #505F79;
+  color: #505f79;
 }
 
 .social-container .social img {
-  color: #505F79;
+  color: #505f79;
 }
-
-
