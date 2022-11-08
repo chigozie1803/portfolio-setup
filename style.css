@@ -540,7 +540,7 @@ h3.feature {
   padding-left: 30%;
 }
 
-.contact {
+.contact-form {
   background: #fff;
   display: flex;
   flex-direction: column;
@@ -603,7 +603,7 @@ input {
   margin: 0 24px 73px;
 }
 
-.contact .btn {
+.button-form button {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -612,10 +612,21 @@ input {
   gap: 10px;
   width: 131px;
   height: 48px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  cursor: pointer;
+  color: white;
+}
 
-  /* Theme 3 / Primary 1 */
-
+.button-form button:enabled {
   background: #ff6b00;
+}
+
+.button-form button:hover {
+  background: lightsalmon;
 }
 
 footer {
@@ -624,27 +635,16 @@ footer {
   border-top: 1px solid #dfe1e6;
 }
 
-footer ul.social-container {
+footer .social-container {
   display: flex;
-  flex-wrap: wrap;
   list-style-type: none;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: row;
   align-items: center;
   height: 40px;
-}
-
-footer ul.social-container li.social {
   color: #505f79;
 }
 
-footer div.bottom {
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  width: 134px;
-  height: 5px;
-  margin: 2% 30%;
-  background: #0d151e;
-  border-radius: 10px;
+.social-container .social img {
+  color: #505f79;
 }
