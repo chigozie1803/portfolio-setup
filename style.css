@@ -648,3 +648,271 @@ footer div.bottom {
   background: #0d151e;
   border-radius: 10px;
 }
+
+.desktop-nav {
+  display: none;
+}
+
+.desktop-vector {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .desktop-wrapper {
+    width: 1400px;
+    height: 72px;
+  }
+
+  .header-container {
+    width: 1400px;
+    background-image: url(./images/g1.svg);
+    background-position-x: right;
+    background-position-y: top;
+    background-repeat: no-repeat;
+  }
+
+  .header-container h1 {
+    width: 566px;
+    height: 160px;
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+  }
+
+  .header-container h3 {
+    width: 566px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+
+  .header-container p {
+    width: 566px;
+    height: 123px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .work-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 130px 24px;
+    gap: 114px;
+
+    position: absolute;
+    width: 1204px;
+    height: 1805px;
+    left: 118px;
+    top: 2000px;
+  }
+
+  .recent-work {
+    width: 1133px;
+    height: 52px;
+  }
+
+  .action-btn {
+    position: absolute;
+    height: 58px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+
+  }
+
+  .featured-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 1156px;
+    height: 448px;
+    left: -1px;
+    top: 0px;
+  }
+
+  .featured {
+    float: left;
+  } 
+
+  .multi-container {
+    float: right;
+  }
+
+  .desktop {
+    width: 1156px;
+    height: 1379px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .card-container-1 {
+    position: absolute;
+    width: 1155px;
+    height: 448px;
+    left: -0.5px;
+    bottom: 459px;
+  }
+
+  .card-container-2 {
+    position: absolute;
+    width: 1155px;
+    height: 435px;
+    left: 0px;
+    bottom: 0px;
+  }
+
+  .mobile-vector {
+    display: none;
+  }
+
+  .action-btn {
+    position: absolute;
+    height: 58px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
+
+  .mobile-card-container {
+    display: none;
+  }
+
+  .card-item-1 {
+    background-image: url(./images/Img\ Placeholder\ 1.svg);
+  }
+
+  .card-item-2 {
+    background-image: url(./images/Img\ Placeholder\ 2.svg);
+  }
+
+  .card-item-3 {
+    background-image: url(./images/Img\ Placeholder\ 3.svg);
+  }
+
+  .about-me {
+    background-image: url(./images/g\ down.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    position: absolute;
+    width: 1440px;
+    height: 1195px;
+    left: 0px;
+    top: 2680px;
+  }
+
+  .title-h3 {
+    width: 566px;
+    height: 78px;
+  }
+
+  .about-paragraph {
+    width: 566px;
+    height: 148px;
+  }
+
+  .resume {
+    width: 161px;
+    height: 48px;
+  }
+
+  .work-on {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 130px 0px;
+    gap: 152px;
+    position: absolute;
+    width: 1157.46px;
+    height: 596px;
+    left: 141px;
+  }
+
+  .best {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 12px;
+    width: 289.46px;
+    height: 41.46px;
+  }
+
+  #skill {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 12px;
+    width: 282px;
+    height: 40px;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 12px;
+    gap: 8px;
+    width: 186px;
+    height: 272px;
+  }
+
+  .all-about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 289.46px;
+    height: 281.46px;
+  }
+
+  .paragraph1 {
+    width: 455px;
+    height: 256px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    /* or 130% */
+
+    display: flex;
+    align-items: center;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 130px 0px;
+    gap: 24px;
+    position: absolute;
+    width: 1163px;
+    height: 590px;
+    left: 135px;
+    top: 3910px;
+  }
+}
